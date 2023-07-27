@@ -15,12 +15,17 @@
 <body>
     <header class="cabecalho">
        <div class="container" 
-         <input type="chekbox" id="menu"  class="container__botao">
+         <input> type="chekbox" id="menu"  class="container__botao">
       
         <label for="menu">          
           <span class="cabeçalho__menu-hamburguer"></span>
-         
-        </label> 
+          <ul class="opcoes">
+
+            <imput type="checkbox" id="opoes-menu" class="opcoes_botao">
+             <label for="opcoes-menu" class="opcoes_rotulo">
+              <li class="opcoes_item">Categorias</li>
+             </label>
+      
           
         <ul class="lista-menu">
 
@@ -38,7 +43,29 @@
 
 </ul>
 
-<a href="#"><img class="container_imagem" src="img/Logo.svg" alt="logo alura books"></a> 
+    <li class="opcoes_item"><a href="#" class="opcoes_link">Favoritos</a> </li>
+    <li class="opcoes_item"><a href="#" class="opcoes_link">Minha estudante</a></li>
+  
+    </ul>
+     
+    <div class="container">
+       <a href="#" class="container_link">
+        <img class="container_imagem container_imagem--coracao" src="img/favoritos.svg" alt="Meus favoritos"></a>
+         <a href="#" class="container_link">
+          <img class="container_imagem" src="img/Compra.svg" alt="Carrinho de compras">
+          <p class="container_texto">Minha sacola</p>
+         </a>
+         <a href="#" class="container_link">
+          <imag class="container_imagem" src="img/Usuario.svg" alt="meu perfil">
+            <p class="container_texto">Meu perfil</p>
+          
+         </a>
+    </div>
+  </header>
+
+
+
+<a></a> href="#"><img class="container_imagem" src="img/Logo.svg" alt="logo alura books"></a> 
            <h1 class="container_titulo"><b class="container_titulo--negrito">Alura</b>Boooks</h1> 
        </div>
 
@@ -53,4 +80,3 @@
     
 </body>
 </html>
-        
