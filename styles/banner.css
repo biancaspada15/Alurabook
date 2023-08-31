@@ -34,7 +34,28 @@
     background-position: 0.5em;
 }
 
-@media screen and (min-width: 820px) {
+@media screen and (min-width: 1024px) {
+    .banner__titulo {
+        font-size: 36px;
+    }
+
+    .banner__pesquisa {
+        width: 50%;
+    }
+
+    .banner__pesquisa::placeholder {
+        background-position: 7em;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .banner__pesquisa {
+        width: 35%;
+    }
+
+    .banner__pesquisa::placeholder {
+        background-position: 12em;
+    }@media screen and (min-width: 820px) {
     .banner__titulo {
         font-size: 2.25em;
     }
@@ -59,19 +80,8 @@
         padding: 6em 0;
     }
 
-}
-
-@media screen and (min-width: 1728px) {
-    .banner__pesquisa {
-        width: 30%;
-    }
-
-    .banner__pesquisa::placeholder {
-        background-position: 5em;
-    }
 
     .banner {
         padding: 6em 0;
     }
-
 }
